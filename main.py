@@ -1,7 +1,5 @@
 from cluster import Clustring
-from typing import Text
 from PyQt5 import QtGui
-from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QMessageBox, QPlainTextEdit, QPushButton
 import sys
 

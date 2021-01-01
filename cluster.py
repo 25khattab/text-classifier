@@ -1,7 +1,4 @@
-from ast import dump
 import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 import joblib
@@ -19,7 +16,7 @@ class Clustring:
             self.load_model()
 
     def train_model(self):
-        
+
         self.train_vec = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='latin-1',
                                          ngram_range=(1, 2), stop_words='english', max_features=1000)
         self.train_vec.fit(self.data.Text.values)
