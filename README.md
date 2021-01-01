@@ -1,4 +1,3 @@
-
 TEXT Classifier
 ===============
 this project is something we worked on for the AI Course at our univirsity
