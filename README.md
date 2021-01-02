@@ -6,6 +6,8 @@ we are using k-means clustring technique
 
 ## Prerequisites
 Please install the following:
+- [python >= 3.6](https://www.python.org/downloads/)
+
 - [pandas](https://pandas.pydata.org/)
     
 - [scikit-learn](https://scikit-learn.org/stable/)
