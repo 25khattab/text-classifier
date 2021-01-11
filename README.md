@@ -21,7 +21,7 @@ you can use the following [pip](https://pip.pypa.io/en/stable/) code to install 
 ```bash
 pip install -U pandas scikit-learn joblib pyqt5
 ```
-With the prerequisites installed, you can use the designer:
+With the prerequisites installed, you can clone the project:
 ```bash
 git clone https://github.com/25khattab/text-classifier
 ```
