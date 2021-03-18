@@ -17,7 +17,9 @@ Please install the following:
 ## Installation
 you can use the following [pip](https://pip.pypa.io/en/stable/) code to install the prerequisites
 ```bash
-pip install -U pandas scikit-learn joblib pyqt5
+pip install -Iv  scikit-learn==0.24.0 
+
+pip install -U joblib pyqt5 pandas
 ```
 With the prerequisites installed, you can use the designer:
 ```bash
