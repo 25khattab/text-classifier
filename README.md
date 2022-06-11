@@ -19,7 +19,7 @@ Please install the following:
 ## Installation
 you can use the following [pip](https://pip.pypa.io/en/stable/) code to install the prerequisites
 ```bash
-pip3 install -Iv  scikit-learn==0.24.0 
+pip3 install -U scikit-learn scipy matplotlib
 
 pip3 install -U joblib pyqt5 pandas
 ```
