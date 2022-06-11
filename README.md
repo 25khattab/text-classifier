@@ -19,9 +19,9 @@ Please install the following:
 ## Installation
 you can use the following [pip](https://pip.pypa.io/en/stable/) code to install the prerequisites
 ```bash
-pip install -Iv  scikit-learn==0.24.0 
+pip3 install -Iv  scikit-learn==0.24.0 
 
-pip install -U joblib pyqt5 pandas
+pip3 install -U joblib pyqt5 pandas
 ```
 With the prerequisites installed, you can clone the project:
 ```bash
